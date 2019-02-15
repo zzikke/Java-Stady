@@ -1,0 +1,15 @@
+package sec07.exam01_generic_extends_implements;
+
+public class ChildProduct<K,V,C> extends Product<K, V> {
+	private C compay;
+
+	public C getCompay() {
+		return compay;
+	}
+
+	public void setCompay(C compay) {
+		this.compay = compay;
+	}
+	
+
+}
